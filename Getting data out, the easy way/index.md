@@ -40,8 +40,7 @@ information on the layer like this...
 ![Layer Page](img/LayerPage.png)
 
 If you scroll to the end of the page you will get a list of the fields for each
-item in the layer and the supported operations. The operation we want is
-```Query```.  
+item in the layer and the supported operations. The operation we want is ```Query```.  
 ![Fields and Supported Operations](img/FieldsAndSupportedOperations.png)
 
 Click on the ```Query``` link and you should be presented with a page like
