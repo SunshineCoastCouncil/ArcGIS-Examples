@@ -22,7 +22,7 @@ Open it in your browser of choice and you should be presented with a list of
 folders like this...  
 ![Folders List](img/FoldersList.png)
 
-For the purpose of this example we are going to find a list of patrolled 
+For the purpose of this example we are going to find a list of patrolled
 beaches. Once you have completed this example feel free to have a look
 around to see what other data sets are available from the ArcGIS server you are
 using.
@@ -34,7 +34,7 @@ link on the next page.
 You should now have a page with a list of layers like this...  
 ![Layers List](img/LayersList.png)
 
-The patrolled beaches layer is towards the top of the list as 
+The patrolled beaches layer is towards the top of the list as
 ```Beaches (Patrolled)```. Clicking on that option will get you a page with
 information on the layer like this...  
 ![Layer Page](img/LayerPage.png)
@@ -47,8 +47,8 @@ Click on the ```Query``` link and you should be presented with a page like
 this...  
 ![Blank Query](img/BlankQuery.png)
 
-We are going to change the ```Where``` clause to ```1=1``` and the ```Format```
-option to ```JSON``` as shown here...  
+We are going to change the ```Where``` clause to ```1=1```, ```Output Spatial Reference```
+to ```4326``` and the ```Format``` option to ```JSON``` as shown here...  
 ![Query](img/Query.png)
 
 Once you are ready click the ```Query (GET)``` button and you should get some
@@ -58,7 +58,7 @@ results like this...
 You should now be able to save the page (CTRL+S should do it). If the data set
 is one that changes regularly take note of the url that has been used so you
 can easily fetch it again. In this case it is
-[http://gisservices.scc.qld.gov.au/arcgis/rest/services/Society/Society_SCRC/MapServer/6/query?where=1%3D1&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson](http://gisservices.scc.qld.gov.au/arcgis/rest/services/Society/Society_SCRC/MapServer/6/query?where=1%3D1&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson)
+[http://gisservices.scc.qld.gov.au/arcgis/rest/services/Society/Society_SCRC/MapServer/6/query?where=1%3D1&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson](http://gisservices.scc.qld.gov.au/arcgis/rest/services/Society/Society_SCRC/MapServer/6/query?where=1%3D1&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson)
 
 And that's it. You should be able to apply this method to a lot of the data
 layers available. Some layers will be pre-rendered image based layers. You
