@@ -1,0 +1,9 @@
+#map { height: 380px; width: 700px; }
+
+.feature-info {
+    height: 20px; 
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
